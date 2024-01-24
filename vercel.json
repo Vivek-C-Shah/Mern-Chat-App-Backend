@@ -15,6 +15,5 @@
     ],
     "env": {
       "NODE_ENV": "production"
-    },
-    "engines": { "node": "20.x" }
+    }
   }
