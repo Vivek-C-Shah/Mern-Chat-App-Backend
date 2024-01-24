@@ -1,0 +1,22 @@
+{
+    "version": 2,
+    "name": "venv-chat",
+    "builds": [
+      {
+        "src": "server.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "server.js"
+      }
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "engine": {
+      "node": "14.x"
+    }
+  }
