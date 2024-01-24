@@ -15,8 +15,5 @@
     ],
     "env": {
       "NODE_ENV": "production"
-    },
-    "engine": {
-      "node": "14.x"
     }
   }
